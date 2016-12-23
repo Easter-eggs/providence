@@ -40,6 +40,7 @@
 	require_once(__CA_LIB_DIR__."/ca/Utils/CLIUtils.php");
 	require_once(__CA_LIB_DIR__."/ca/ApplicationPluginManager.php");
 	require_once(__CA_LIB_DIR__."/core/Zend/Console/Getopt.php");
+    require_once(__CA_LIB_DIR__."/../../kint/Kint.class.php");
 	
 	if (!caIsRunFromCLI()) {
 		die("Sorry, caUtils must be run from the command line!\n");
